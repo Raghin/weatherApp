@@ -20,7 +20,27 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KX1-Yw-6Pz" userLabel="TextContainer">
                                 <rect key="frame" x="0.0" y="237" width="600" height="363"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uTU-Fi-7Ce">
+                                        <rect key="frame" x="132" y="10" width="337" height="177"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="150"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dgo-EW-5rs">
+                                        <rect key="frame" x="20" y="58" width="561" height="295"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="250"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" red="0.21568627450980393" green="0.50196078431372548" blue="0.72941176470588232" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="dgo-EW-5rs" secondAttribute="bottom" constant="10" id="Vpq-F0-6fr"/>
+                                    <constraint firstItem="dgo-EW-5rs" firstAttribute="centerX" secondItem="KX1-Yw-6Pz" secondAttribute="centerX" id="fH2-1W-9k5"/>
+                                    <constraint firstItem="uTU-Fi-7Ce" firstAttribute="top" secondItem="KX1-Yw-6Pz" secondAttribute="top" constant="10" id="uia-ff-FB5"/>
+                                    <constraint firstItem="uTU-Fi-7Ce" firstAttribute="centerX" secondItem="KX1-Yw-6Pz" secondAttribute="centerX" id="y9o-Yq-s2L"/>
+                                </constraints>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud" translatesAutoresizingMaskIntoConstraints="NO" id="i8L-89-vBl">
                                 <rect key="frame" x="150" y="20" width="300" height="197"/>
